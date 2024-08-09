@@ -1,0 +1,250 @@
+*{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: none;
+    color: black;
+    padding: 1rem 0;
+}
+
+header.logo{
+    display: inline-block;
+    font-size: 2rem;
+}
+
+header nav ul{
+    list-style: none;
+    float: right;
+}
+
+header nav ul li{
+    display: inline;
+    margin-left: 2rem;
+}
+
+header nav ul li a{
+    color: black;
+    text-decoration: black;
+}
+
+#hero{
+    color: black;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+h5{
+    color: orangered;
+    font-size: 0.9rem;
+}
+
+h1.travel{
+    font-size: 4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn{
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* .category{
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.category-cards{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.card{
+    background-color: aliceblue;
+   padding: 20px;
+   border-radius: 5px;
+} */
+
+.category{
+    padding: 50px 20px;
+    text-align: center;
+    width: 1228px;
+    height: 525px;
+    top: 966px;
+    left: 154px;
+}
+
+.container2{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+
+.card{
+    width: 150px;
+    height: 150px;
+    font-size: 1em;
+    text-align: center;
+    border-radius: 15px;
+}
+
+ #box1{
+    width: 190px;
+    height: 277px;
+    top: 1186px;
+    left: 154px;
+    border-radius: 18px,5px,10px,5px;
+}
+
+#box2{
+    width: 302px;
+    height: 348.91px;
+    top: 1142.09px;
+    left: 382px;
+}
+
+#box3{
+    width: 181px;
+    height: 229px;
+    top: 1184px;
+    left: 763px;
+}
+
+
+.destinations{
+    padding: 50px 20px;
+    text-align: center;
+    width: 1228px;
+    height: 525px;
+    top: 966px;
+    left: 154px;
+}
+
+.container-destination{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.book-a-trip{
+    padding: 50px 20px;
+    text-align: center;
+    width: 1228px;
+    height: 525px;
+    top: 966px;
+    left: 154px;
+}
+
+.container-trip{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+h2{
+    font-size: 3rem;
+}
+.trip{
+    text-align: left;
+}
+
+.values{
+font-size: 0.5rem;
+text-align: left;
+}
+
+.testimonials{
+    padding: 50px 20px;
+    text-align: center;
+    width: 1228px;
+    height: 525px;
+    top: 966px;
+    left: 154px;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+.container-testimonials{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.say{
+    text-align: left;
+}
+
+.client{
+    font-size: 0.5rem;
+    text-align: left;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    padding: 50px 20px;
+    text-align: center;
+    width: 1228px;
+    height: 525px;
+    top: 966px;
+    left: 154px;
+}
+
+.container-footer{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
